@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ubuntu";
+
+}
+
+h1:first-letter {
+    color: #68C223;
+}
+
+body {
+	background-color: rgba(68, 92, 214, 0.6);
+}
+
+p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+}
+
+
+.imgpre img {
+	margin-top: 100px;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.caption h3 {
+	text-align: center;
+}
+
+.caption {
+	background-color: #E7E7E7;
+}
+
+.thumbnail {
+	border: 1px solid red;
+}
+
+.navbtn .btnnav {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.boxprog {
+	height: 510px;
+}
+
+.thumbnail .progbox {
+	height: 407px;
+}
