@@ -27,10 +27,9 @@ p {
 }
 
 .container h1{
-	background-color: white;
 	border-radius: 5px;
 	padding-bottom: 5px;
-	width: 400px;
+
 	margin: auto;
 }
 
@@ -46,6 +45,20 @@ p {
 	border: 1px solid #FF7E00;
 }
 
+.thumbnail.infostag{
+	
+	width: 900px;
+	height: 250px;
+
+}
+.rom{
+	text-align: left;
+	height: 90px;
+	width: 90px;
+
+}
+
+
 .navbtn .btnnav {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -56,7 +69,7 @@ p {
 }
 
 .boxprog {
-	height: 510px;
+	height: 550px;
 }
 
 .thumbnail .progbox {
