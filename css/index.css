@@ -20,6 +20,7 @@ p {
 
 .imgpre img {
 	width: 100%;
+	padding-top: 50px;
 }
 
 .page-header {
@@ -39,6 +40,16 @@ p {
 
 .thumbnail {
 	border: 1px solid #FF7E00;
+}
+
+.thumbnail.infostag{
+	
+	width: 900px;
+	height: 250px;
+}
+
+.rom {
+	width: 100%;
 }
 
 .navbtn .btnnav {
@@ -132,3 +143,32 @@ form#myform input {
 	height: 30px;
 	width: 30px;
 }
+
+.table-div {
+	display: table;
+	height: 200px;
+	width: 600px;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+table {
+	margin-right: 20px;
+	margin-left: 20px;
+ border-width:2px; 
+ border-style:solid; 
+ border-color:black;
+ width:50%;
+ }
+td { 
+ border-width:3px;
+ border-style:solid; 
+ border-color:#FF7F53;
+ width:50%;
+ }
+ #proj{padding-top: 50px;}
+ #gal{padding-top: 50px;}
+ #cont{padding-top: 50px;}
