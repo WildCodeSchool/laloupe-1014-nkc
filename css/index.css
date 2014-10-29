@@ -62,11 +62,10 @@ p {
 }
 
 .boxprog {
-	height: 510px;
+	min-height: 530px;
 }
 
 .thumbnail .progbox {
-	height: 407px;
 	background-image:url("http://subtlepatterns.com/patterns/lightpaperfibers.png");
 }
 
