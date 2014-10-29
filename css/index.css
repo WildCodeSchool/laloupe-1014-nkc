@@ -9,7 +9,7 @@ h1:first-letter {
 }
 
 body {
-	background-color:rgba(113, 228, 229, 0.4);
+	background: linear-gradient(to bottom, white,#70DFC4);
 }
 
 p {
@@ -27,19 +27,14 @@ p {
 }
 
 .container h1{
-	background-color: white;
 	border-radius: 5px;
 	padding-bottom: 5px;
-	width: 400px;
+	width: 100%;
 	margin: auto;
 }
 
 .caption h3 {
 	text-align: center;
-}
-
-.caption {
-	background-image:#E7E7E7;
 }
 
 .thumbnail {
@@ -61,6 +56,7 @@ p {
 
 .thumbnail .progbox {
 	height: 407px;
+	background-image:url("http://subtlepatterns.com/patterns/lightpaperfibers.png");
 }
 
 .label{
@@ -90,7 +86,21 @@ form#myform input {
 }
 
 .navbar{
-	box-shadow: 2px 2px 2px #E7E7E7;
+	box-shadow: 2px 2px 2px #F1F8E0;
+	background-image:url("http://subtlepatterns.com/patterns/lightpaperfibers.png");
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #F36132;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #24334C;
+}
+
+.padbut {
+	padding-top: 5px;
 }
 
 .infostag .staginfo {
@@ -101,3 +111,24 @@ form#myform input {
 	height: 308px;
 }
 
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+#mention {
+	font-size: 10px;
+}
+
+#envoyer {
+	border-color: #FF7E00
+}
+
+.social {
+	border-radius: 100%;
+	margin-top: 8px;
+	height: 30px;
+	width: 30px;
+}

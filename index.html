@@ -23,7 +23,7 @@
                 <!--fin bouton navbar mobile-->
             </div>
             <div class="collapse navbar-collapse test1" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav padbut">
                     <li><a href="#">Programme</a></li>
                     <li><a href="#">Renseignement</a></li>            
                 </ul>
@@ -37,13 +37,13 @@
 
     <!--Image de présentation-->
     <div class="imgpre">
-        <img src="img/banniere.jpg" class="img-responsive" alt="Img presentation">
+        <img src="img/bannie.jpg" class="img-responsive" alt="Img presentation">
     </div>
 
 	<!--Présentation Kid's Club-->
     <div class="container">
         <header class="page-header">
-            <h1 class="img-responsive">Presentation</h1>
+            <h1 class="img-responsive">Programmer avant d'être programmé</h1>
         </header>
         	<section class="row">
             	<div class="col-lg-12">
@@ -62,7 +62,7 @@
     <!--Les projets du Kid's Club-->
     <div class="container">
         <header class="page-header">
-            <h1 class="img-responsive">Programme</h1>
+            <h1 class="img-responsive">Projets</h1>
         </header>
 		<section class="row">
     		<div class="col-lg-12">
@@ -189,51 +189,60 @@
     <!--formulaire-->
 
 
-<div class="container presentation" id="medias">
+    <div class="container presentation" id="medias">
         <header class="page-header">
             <h1 class="img-responsive">Inscription</h1>
         </header>
-            <div class="row">
-
-                <div class="col-md-offset-1 col-md-6 formulaire">
-                    <form action="#" method="post" id="myform"><input type="hidden" name="redirect_to" value="#"/>
-                       
-                           <label for="nom">Prénom:</label>
-                           <input type="text" name="nom" id="nom" /></br>
-                           <label for="prenom">Nom:</label>
-                           <input type="text" name="prenom" id="prenom" /></br>
-                           <label for="email">E-mail*:</label>
-                           <input type="email" name="email" id="email" /></br>
-                           <label for="telephone">Téléphone:</label>
-                           <input type="text" name="telephone" id="telephone" /></br>
-                           
-                            <label for="domaine">Domaine : </label>
-                            <select id="domaine" name="domaine">
-                                            <option value="At">Atelier</option>
-                                            <option value="st">Stage</option>
-                                            <option value="Ac">Activité</option>
-                            </select>
-                           
-                </div>
-                <div class="col-md-5 message">
-                           <label for="message">Votre message*:</label>
-                           <textarea name="message" id="message" rows="6" cols="25">
-                           </textarea>
-                </div>
-
-
-
-                <div class="col-md-7 champs">
-                           <p id="champs">* champs obligatoire</p>
-                </div>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-6 formulaire">
+            <form action="#" method="post" id="myform"><input type="hidden" name="redirect_to" value="#"/>
+                <label for="nom">Prénom:</label>
+                <input type="text" name="nom" id="nom" /></br>
+                <label for="prenom">Nom:</label>
+                <input type="text" name="prenom" id="prenom" /></br>
+                <label for="email">E-mail*:</label>
+                <input type="email" name="email" id="email" /></br>
+                <label for="telephone">Téléphone:</label>
+                <input type="text" name="telephone" id="telephone" /></br>
+                <label for="domaine">Domaine : </label>
+                <select id="domaine" name="domaine">
+                    <option value="At">Atelier</option>
+                    <option value="st">Stage</option>
+                    <option value="Ac">Activité</option>
+                </select>     
+        </div>
+                    <div class="col-md-5 message">
+                        <label for="message">Votre message*:</label>
+                        <textarea name="message" id="message" rows="6" cols="25">
+                        </textarea>
+                    </div>
+                    <div class="col-md-7 champs">
+                        <p id="champs">* champs obligatoire</p>
+                    </div>
                 <div class="col-md-12 btn">
-                        <input type="submit" value="Envoyer" class="btn btn-default" id="envoyer"/>
+                    <input type="submit" value="Envoyer" class="btn btn-default" id="envoyer"/>
                 </div>
-                    </form>
-                </div>
-            </div>
-        
-</div>
-
+            </form>
+        </div>
+    </div>
+    <div class="container contact">
+    <section class="row footer">
+        <div class="col-lg-12 logofoot">
+            <p>
+                <a href="https://fr-fr.facebook.com/simplonvillage">
+                    <img class="social" src="img/face.jpg"></img>
+                </a>
+                    <a href="https://twitter.com/Simplonvillage">
+                    <img class="social" src="img/twitter.png"></img>
+                </a>
+                    <a href="mailto:simplon.village@gmail.com">
+                    <img class="social" src="img/mail.png"></img>
+                </a> 
+            </p>
+            <p id="mention">Organisme de formation enregistré auprès du Préfet de la région Centre le 23 juin 2014 sous le n° 24 28 0154228 - 18 rue de La Gare 28240 La Loupe - SAS au capital de 7 000 euros - 794 926 063 00015 RCS Chartres
+            </p>               
+        </div>
+    </section>
+    </div>
 </body>
 </html>
