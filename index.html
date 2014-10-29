@@ -8,6 +8,7 @@
 	</head>
 
 <body>
+<div id="entete">
 	<!--Debut de la navbar-->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -24,12 +25,12 @@
             </div>
             <div class="collapse navbar-collapse test1" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#entete">Accueil</a></li>
                     <li><a href="#proj">Projets</a></li> 
-                    <li><a href="#">Galerie</a><li>           
+                    <li><a href="#gal">Galerie</a><li>           
                 </ul>
                 <ul class="nav navbar-nav navbar-right navbtn">
-                    <li><a href="#" class="btn btn-default btn-sm navbar-btn btnnav">Contactez-nous</a></li>
+                    <li><a href="#cont" class="btn btn-default btn-sm navbar-btn btnnav">Contactez-nous</a></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +41,7 @@
     <div class="imgpre">
         <img src="img/banniere.jpg" class="img-responsive" alt="Img presentation">
     </div>
-
+</div>
 	<!--Présentation Kid's Club-->
     <div class="container">
         <div class="page-header">
@@ -61,9 +62,8 @@
     <!--Fin présentation Kid's Club-->
 
     <!--Les projets du Kid's Club-->
- <div id="proj">
 
-    <div class="container">
+    <div class="container" id="proj">
         <div class="page-header">
             <h1 class="img-responsive">Projets</h1>
         </div>
@@ -126,12 +126,12 @@
 		</section>
     </div>
 
-</div>
+
     <!--Fin des programme Kid's Club-->
 <!-- debut presentation intervenant-->
 
 <!--div class="col-sm-6 col-md-4"-->
-
+<!-- presnetation rom -->
 <div class="container">
     <div class="page-header">
         <h1 class="img-responsive">Animateur</h1>
@@ -148,8 +148,30 @@
     </div>
 </div>
 
+<!-- fin presentation rom -->
+<!-- debut galerie -->
 
-
+            <div class="container" id="gal">
+                    <div class="page-header">
+                        <h1 class="img-responsive">Galerie</h1>
+                    </div>
+                    <section class="row">
+                        <div class="col-lg-12">
+                    <table>
+                       <tr>
+                          <td><img src="img/6.jpeg"></td>
+                          <td><img src="img/4.jpeg"></td>
+                          <td><img src="img/2.jpeg"></td>
+                          <td><img src="img/tout.jpeg"></td>
+                          <td><img src="img/fi.jpeg"></td>
+                        <tr>
+                          <td><img src="img/ens.jpeg"></td>
+                          <td><img src="img/ro.jpeg"></td>
+                          <td><img src="img/aa.jpeg"></td>
+                          <td><img src="img/deu.jpeg"></td>
+                          <td><img src="img/enf.jpeg"></td>
+                    </table>
+            </div>
 
 
 
@@ -216,10 +238,10 @@
 	<!--Fin des documentations-->
     <!--formulaire-->
 
-
-<div class="container presentation" id="medias">
+ 
+<div class="container presentation" id="cont">
         <div class="page-header">
-            <h1 class="img-responsive">Inscription</h1>
+            <h1 class="img-responsive">Contactez-nous</h1>
         </div>
             <div class="row">
 
@@ -235,13 +257,14 @@
                            <label for="telephone">Téléphone:</label>
                            <input type="text" name="telephone" id="telephone" /></br>
                            
-                            <label for="domaine">Domaine : </label>
+                            <!--label for="domaine">Domaine : </label>
                             <select id="domaine" name="domaine">
                                             <option value="At">Atelier</option>
                                             <option value="st">Stage</option>
                                             <option value="Ac">Activité</option>
                             </select>
-                           
+
+                           <!-->
                 </div>
                 <div class="col-md-5 message">
                            <label for="message">Votre message*:</label>
@@ -262,6 +285,6 @@
             </div>
         
 </div>
-
+</div>
 </body>
 </html>

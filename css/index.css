@@ -20,6 +20,7 @@ p {
 
 .imgpre img {
 	width: 100%;
+	padding-top: 50px;
 }
 
 .page-header {
@@ -107,9 +108,28 @@ form#myform input {
 .table-div {
 	display: table;
 	height: 200px;
+	width: 600px;
 }
 
 .cell {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+table {
+	margin-right: 20px;
+	margin-left: 20px;
+ border-width:2px; 
+ border-style:solid; 
+ border-color:black;
+ width:50%;
+ }
+td { 
+ border-width:3px;
+ border-style:solid; 
+ border-color:#FF7F53;
+ width:50%;
+ }
+ #proj{padding-top: 50px;}
+ #gal{padding-top: 50px;}
+ #cont{padding-top: 50px;}
