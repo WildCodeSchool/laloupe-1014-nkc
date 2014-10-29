@@ -38,7 +38,7 @@ p {
 }
 
 .caption {
-	background-image:#E7E7E7;
+	background-color:#E7E7E7;
 }
 
 .thumbnail {
@@ -49,15 +49,11 @@ p {
 	
 	width: 900px;
 	height: 250px;
-
-}
-.rom{
-	text-align: left;
-	height: 90px;
-	width: 90px;
-
 }
 
+.rom {
+	width: 100%;
+}
 
 .navbtn .btnnav {
 	margin-top: 15px;
@@ -66,10 +62,6 @@ p {
 	padding-bottom: 5px;
 	border-color: #FF7E00;
 
-}
-
-.boxprog {
-	height: 550px;
 }
 
 .thumbnail .progbox {
@@ -114,3 +106,12 @@ form#myform input {
 	height: 308px;
 }
 
+.table-div {
+	display: table;
+	height: 200px;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+}
