@@ -171,9 +171,15 @@ td {
  border:#FF7F53 solid 1px ;
  width:50%;
  }
- #proj{padding-top: 50px;}
- #gal{padding-top: 50px;}
- #cont{padding-top: 50px;}
+ #proj{
+ 	padding-top: 50px;
+ }
+ #gal{
+ 	padding-top: 60px;
+ }
+ #cont{
+ 	padding-top: 60px;
+ }
 
  .hoverbox
 {
@@ -203,9 +209,7 @@ td {
 .hoverbox img
 {
 	background: #fff;
-	border-color:red;
-	border-style: solid;
-	border-width: 1px;
+	border:solid 1px #FF7E00  ;
 	color: inherit;
 	padding: 2px;
 	vertical-align: top;
@@ -225,7 +229,7 @@ td {
 
 .hoverbox .preview
 {
-	border-color: red;
+	border-color:#FF7E00 ;
 	width: 200px;
 	height: 150px;
 }
