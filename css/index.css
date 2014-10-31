@@ -38,7 +38,7 @@ p {
 }
 
 #im
-{width: 400px;
+{width: 300px;
 height:200px;
 }
 
@@ -47,6 +47,7 @@ height:200px;
 	border: 1px solid #FF7E00;
 }
 
+}
 .thumbnail.infostag{
 	
 	width: 900px;
@@ -54,6 +55,7 @@ height:200px;
 }
 
 .rom {
+	
 	width: 100%;
 }
 
@@ -66,6 +68,14 @@ height:200px;
 
 }
 
+#message{margin-right: 10px;
+          margin-left: 140px;}
+#mes{
+	margin-left:40px;
+     margin-right: 45px; 
+      position: absolute;
+      display:inline;
+       }
 .boxprog {
 	min-height: 530px;
 }
@@ -77,8 +87,9 @@ height:200px;
 .label{
 	 display:block;
 	 max-width: auto;
-	 margin-bottom: 5px;
-	 font-weight: bold;    
+	 margin-bottom: 0px;
+
+	   
 }
 
 #champs{
