@@ -3,13 +3,15 @@
 	<head>
 		<title>Kid's Club</title>
 		<meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
         
 	</head>
 
 <body>
-<div id="entete">
+<div >
 	<!--Debut de la navbar-->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -20,15 +22,15 @@
                     	<span class="sr-only">Toggle navigation</span>
                     	<span class="icon-bar"></span>
                     	<span class="icon-bar"></span>
-                    	<span class="icon-bar"></span>
+                    	<span class="icon-bar"></span>n
                 	</button>
                 <!--fin bouton navbar mobile-->
             </div>
-            <div class="collapse navbar-collapse test1" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav padbut">
-                    <li><a href="#entete">Accueil</a></li>
-                    <li><a href="#proj">Projets</a></li> 
-                    <li><a href="#gal">Galerie</a><li>           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbtn">
+                    <li><a href="#entete" class="btn btn-default btn-sm navbar-btn btnnav">Présentation</a></li>
+                    <li><a href="#proj" class="btn btn-default btn-sm navbar-btn btnnav">Projets</a></li> 
+                    <li><a href="#gal" class="btn btn-default btn-sm navbar-btn btnnav">Galerie</a><li>           
                 </ul>
                 <ul class="nav navbar-nav navbar-right navbtn">
                     <li><a href="#cont" class="btn btn-default btn-sm navbar-btn btnnav">Contactez-nous</a></li>
@@ -40,56 +42,60 @@
 
     <!--Image de présentation-->
     <div class="imgpre">
-        <img src="img/bannie.jpg" class="img-responsive" alt="Img presentation">
+        <img src="img/banniere.png" class="img-responsive" alt="Img presentation">
     </div>
 </div>
 	<!--Présentation Kid's Club-->
-    <div class="container">
+    <div class="container" id="entete">
         <div class="page-header">
-            <h1 class="img-responsive">Programmer avant d'être programmé</h1>
+            <h1>Programmer avant d'être programmé</h1>
         </div>
-        	<section class="row">
-            	<div class="col-lg-12">
-                	<p>Kids-club est une solution éducative développée par un ingénieur de formation et des élèves de Simplon-Village à La Loupe. "Apprendre à programmer avant d'être programmé
+        <div class="row thumbnail">
+
+            <div class="col-md-12">
+                <h3>Présentation</h3>
+                    <p>Kids-club est une solution éducative développée par un ingénieur de formation et des élèves de Simplon-Village à La Loupe. "Apprendre à programmer avant d'être programmé
                     c'est l'objectif que Kids club cherche à atteindre avec un public d'enfants entre 8 et 14ans. Ce programme éducatif se présente en 3 points:
-                	</p>
-                		<ol>
-                    		<li>Des ateliers de développement</li>
-                   			<li>Des stages d'initiation à la création numérique</li>
-                   			<li>Des activités animées au sein des écoles et des collèges </li>
-                		</ol>
-            	</div>
-        	</section>
+                    </p>
+                <ol>
+                    <li>Des ateliers de développement</li>
+                    <li>Des stages d'initiation à la création numérique</li>
+                    <li>Des activités animées au sein des écoles et des collèges </li>
+                </ol> 
+            </div>
+        </div>
     </div>
+    
     <!--Fin présentation Kid's Club-->
 
     <!--Les projets du Kid's Club-->
     <div class="container" id="proj">
         <div class="page-header">
-            <h1 class="img-responsive">Projets</h1>
+            <h1>Projets</h1>
         </div>
 		<section class="row">
     		<div class="col-lg-12">
         		<div class="row">
             		<div class="col-sm-6 col-md-4">
-                		<div class="thumbnail boxprog">
+                		<div class="thumbnail">
+                        <br>
                     		<img data-src="holder.js/300x300" src="img/IMG_1417.JPG" class="im"/>
                     		<div class="caption progbox">
                         		<h3>Ateliers</h3>
                         		<div>
-                            		<p>Dés l'ouverture de notre école numérique à La Loupe, nos éléves proposent des ateliers de développement pour  des enfants et des adolescents de 8 à 14ans , ils abordent la programmation par la création d'un jeu vidéo, à travers ces ateliers, les participants découvrent l'univers du code.</p>
-                        				<ul>
+                            		<p>Dés l'ouverture de notre école numérique à La Loupe, nos éléves proposent des ateliers de développement pour  des enfants et des adolescents de 8 à 14ans , ils abordent la programmation par la création d'un jeu, à travers ces ateliers, les participants découvrent l'univers du code.</p>
+                        			  <ul>
 		                                    <li>La programmation avec Scratch</li>
 		                                    <li>Robot Lego Mindstorms</li>
-		                                    <li>Création de site internet </li>
-		                                </ul>
-                            		<!--a href="#" class="btn btn-default btn-sm navbar-btn inscri" >inscription</a>-->
+		                                    <li>Création de site internet</li>
+		                              </ul>
                             	</div>        
                     		</div>
                 		</div>
             		</div>
             		<div class="col-sm-6 col-md-4">
-                		<div class="thumbnail boxprog">
+                		<div class="thumbnail">
+                        <br>
                     		<img data-src="holder.js/300x300" src="img/IMG_1415.JPG" class="im"/>
                 			<div class="caption progbox">
                     			<h3>Stages</h3>
@@ -106,7 +112,8 @@
                 		</div>
             		</div>    
             		<div class="col-sm-6 col-md-4">
-                		<div class="thumbnail boxprog">
+                		<div class="thumbnail">
+                        <br>
                     		<img data-src="holder.js/300x300" src="img/IMG_1461.JPG" class ="im"/>
                     		<div class="caption progbox">
                         		<h3>Activités</h3>
@@ -137,7 +144,8 @@
     </div>
     <div class="row thumbnail">
         <div class="col-md-3">
-            <img data-src="holder.js/300x300" src="img/romain-coeur.png" class="rom">
+        <br>
+            <img data-src="holder.js/300x300" src="img/romain-coeur.png" class="rom center-block">
         </div>
         <div class="col-md-9 table-div">
             <p class="cell">
@@ -153,15 +161,16 @@
 <!-- debut presentation de l'équipe -->
  
 <div class="container">
-    <div class="row thumbnail" id ="1">
+    <div class="row thumbnail">
         <div class="col-md-3">
-            <img data-src="holder.js/300x300" src="img/IMG_1460.JPG" class="rom">
+        <br>
+            <img data-src="holder.js/300x300" src="img/IMG_1460.JPG" class="rom center-block">
         </div>
         <div class="col-md-9 table-div">
             <p class="cell">
                   <h3> L'Equipe  </h3>
                  </br>
-                 L'équipe animatrice des ateliers, des stage, et des activités dans les écoles se compose de 4 étudiants de Simplon Village de La Loupe.
+                 L'équipe d'animation des ateliers, des stage, et des activités dans les écoles se compose de 4 étudiants de Simplon Village de La Loupe.
             </p>
         </div>
     </div>
@@ -295,5 +304,10 @@
         
 </div>
 </div>
+    <script>
+      $('.navbar-collapse .nav > li > a').click(function(){
+        $('.collapse.in').removeClass('in').css('height', '0');
+      });
+    </script>
 </body>
 </html>
